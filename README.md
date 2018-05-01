@@ -20,12 +20,17 @@ gem install trie_suggest
 
 # Trouble Shooting
 * MECAB_PATH error
-```
-LoadError: Please set MECAB_PATH to the full path to libmecab.dylib
-```
+  ```
+  LoadError: Please set MECAB_PATH to the full path to libmecab.dylib
+  ```
 
-```
-sudo find /usr/ -name "libmecab*"
-export MECAB_PATH=you_libmecab_path
-```
+  ```
+  sudo find /usr/ -name "libmecab*"
+  export MECAB_PATH=you_libmecab_path
+  ```
 
+*  Function 'mecab_model_new2' not found
+  ```
+  brew install mecab
+  brew install mecab-ipadic
+  ```
