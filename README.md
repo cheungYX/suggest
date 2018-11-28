@@ -27,7 +27,7 @@ data.add_word('bar', 666)
 
 * suggest
 ```
-# responce will sort by score
+# responcse will sort by score
 data.suggest('f')
 => [["foo", 999]]
 data.suggest('b')
